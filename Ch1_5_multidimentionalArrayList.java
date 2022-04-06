@@ -8,7 +8,7 @@ public class Ch1_5_multidimentionalArrayList {
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         
         // Initialisation
-        for(int i = 0;i<3;i++){ // this is to add arrayList in to the arrayList, because first it is empty [Al(null),Al(null),Al(null)]
+        for(int i = 0;i<3;i++){ // this is to add array1 in to the arrayList, because first it is empty [Al(null),Al(null),Al(null)]
             list.add(new ArrayList<>());
         }
 

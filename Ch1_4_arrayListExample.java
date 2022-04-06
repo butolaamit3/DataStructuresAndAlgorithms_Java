@@ -31,6 +31,9 @@ public class Ch1_4_arrayListExample {
         list.set(0, 105);
         System.out.println(list);
 
+        // To check the size of an array
+        System.out.println(list.size());
+
         // to remove the value at specific index
         System.out.println(list.remove(0));
         System.out.println(list);

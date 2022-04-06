@@ -9,8 +9,8 @@ public class Ch1_3_multidimentionalArray {
          * 7 8 9
          */
 
-        // Multidimentional array is array of array, means in row 1 it is array1 row 1
-        // is array2 and so on upto n.
+        // Multidimentional array is array of array, means in row 1 it is array1
+        // row2 is array2 and so on upto n.
         // Row1-->arr1 of element0,element1, element2 and so on upto n.
 
         System.out.print("Enter ther element: ");
@@ -23,8 +23,9 @@ public class Ch1_3_multidimentionalArray {
 
         // Taking Input of 2D array
 
-        for (int row = 0; row < arr2.length; row++) { // For each row
-            for (int col = 0; col < arr2[row].length; col++) { // For each column,
+        for (int row = 0; row < arr2.length; row++) { // For row
+            for (int col = 0; col < arr2[row].length; col++) { // For column,
+                // if you have given the size or row and column then you directly write row<3 anc col <3 otherwise below method
                 //  here arr2[row].length means every array at that row, the length of that array
                 // arr2[row] --> Individual size of the row and .lenght--> length of thaat row
                 arr2[row][col] = sc.nextInt();
@@ -33,6 +34,7 @@ public class Ch1_3_multidimentionalArray {
 
         }
 
+        // Printing Array
 
         // 1. To print the array using for loop
         for (int row = 0; row < arr2.length; row++) { // For each row
