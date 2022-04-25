@@ -12,7 +12,6 @@ public class Ch3_2_orderAgnosticBS {
         
         // To check weather the array is in ascending or descending
         boolean isAsc;
-        
         if(arr[start]<arr[end]){
             isAsc = true;
         }

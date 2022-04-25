@@ -36,17 +36,7 @@ public class Ch1_3_multidimentionalArray {
 
         // Printing Array
 
-        // 1. To print the array using for loop
-        for (int row = 0; row < arr2.length; row++) { // For each row
-            for (int col = 0; col < arr2[row].length; col++) {
-                // For each column, here arr2[row].length means every array at that row the
-                // length of that array
-
-                System.out.print(arr2[row][col]+" ");
-            }
-            System.out.println();
-
-        }
+        // 
 
 
         // 2. To print using .toString() method

@@ -12,7 +12,7 @@ public class Ch2_5_EvenDigitsLeetCode {
     }
 
     
-    // Count number of digits in a number
+    //1. Count number of digits in a number
 
     public static int digit(int num){
         int count = 0;
@@ -48,6 +48,7 @@ public class Ch2_5_EvenDigitsLeetCode {
         System.out.println(findNumber(nums));
         System.out.println(digit(-123));
         System.out.println(digit2(1234));
+
         
         
     }

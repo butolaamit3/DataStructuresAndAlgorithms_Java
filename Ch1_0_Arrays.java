@@ -1,3 +1,7 @@
+import java.util.Scanner;
+
+import javax.print.attribute.SupportedValuesAttribute;
+
 public class Ch1_0_Arrays {
     public static void main(String[] args) {
         
@@ -37,6 +41,36 @@ public class Ch1_0_Arrays {
 
         // or directly
         int[] rnol = {45,46,47,48,49};
+
+        // Check array is sorted or not
+        System.out.println("Enter the size of array you want: ");
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+
+        int[] arr = new int[size];
+
+        System.out.println("Enter the elements of an array: ");
+        
+        // Input elements
+        for(int i = 0;i<arr.length;i++){
+            arr[i] = sc.nextInt();
+        }
+
+        // to find array is sorted or not
+        boolean isSort = true;
+
+        for(int i =0;i<arr.length-1;i++){
+            if(arr[i]>arr[i+1]){
+                isSort = false;
+            }
+        }
+        if(isSort==true){
+            System.out.println("Array is sorted");
+        }
+        else{
+            System.out.println("Array is not sorted");
+        }
+
     
     }
 

@@ -9,7 +9,7 @@ public class Ch3_1_binarySearchDecending {
         }
 
         int start = 0;
-        int end  = arr.length-1;
+        int end  = arr.length;
         while(start<=end){
             // find the middle element
             // int mid = start+end/2;  
@@ -39,8 +39,8 @@ public class Ch3_1_binarySearchDecending {
     }
 
     public static void main(String[] args) {
-        int [] arr = {20,19,18,15,13,12,9,7,5,3};
-        System.out.println(binarySearch(arr, 20));
+        int [] arr = {5,4,3,2,1};
+        System.out.println(binarySearch(arr,4));
 
     }
 
