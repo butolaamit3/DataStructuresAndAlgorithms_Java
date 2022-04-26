@@ -17,15 +17,18 @@ public class Ch6_1_selectionSort {
                     max = j;
                 }
             }
-            swap(arr, max, last);
+            int temp = arr[max];
+            arr[max] = arr[last];
+            arr[last] = temp;
+            // swap(arr, max, last);
         }
 
     }
-    public static void swap(int[] arr,int first, int second){
-        int temp = arr[first];
-        arr[first] = arr[second];
-        arr[second] = temp;
-    }
+    // public static void swap(int[] arr,int first, int second){
+    //     int temp = arr[first];
+    //     arr[first] = arr[second];
+    //     arr[second] = temp;
+    // }
 
     // you can also use this function to find max
     // public static int getMaxIndex(int[] arr, int start, int end){
