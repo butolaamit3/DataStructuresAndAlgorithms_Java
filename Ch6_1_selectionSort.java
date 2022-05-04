@@ -13,7 +13,7 @@ public class Ch6_1_selectionSort {
             int last = arr.length-i-1; // means swap it with last index of remaining array
             int max = 0;
             for(int j = 1;j<=last;j++){
-                if(arr[max]<arr[j]){
+                if(arr[j]>arr[max]){
                     max = j;
                 }
             }
